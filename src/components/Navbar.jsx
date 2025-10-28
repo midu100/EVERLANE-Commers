@@ -76,7 +76,7 @@ const Navbar = () => {
         <div className="container">
             <div className="row flex justify-between items-center">
 
-                <ul className='flex justify-between items-center w-[400px]'>
+                <ul className='flex gap-[24px] items-center '>
                     {
                         navItem.map((item,i)=>(
                             <li key={i} className='text-[18px] font-normal font-mono text-[#262626]'><Link to={item.path}>{item.Name}</Link></li>
